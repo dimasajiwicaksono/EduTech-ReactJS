@@ -1,0 +1,32 @@
+.banner-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.banner {
+    width: 100%;
+    position: relative;
+    font-family: Arial;
+    object-fit: cover;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    right:50%;
+    min-width: 600px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: -75px;
+    .description {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+    }
+}
